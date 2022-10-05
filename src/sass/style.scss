@@ -1,0 +1,50 @@
+@import 'base/variables';
+
+* {
+	font-family: 'Roboto-Light';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.titleX {
+	font-family: "Roboto-Bold"; 
+		font-size: 26px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #2e2e2e;
+		text-align: center;
+}
+
+@font-face {
+	font-family: "Roboto-Light"; 
+	src: url("../fonts/Roboto-Light.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: 300; 
+	} 
+@font-face {
+	font-family: "Roboto-Regular"; 
+	src: url("../fonts/Roboto-Regular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: 400; 
+	} 	
+@font-face {
+	font-family: "Roboto-Bold"; 
+	src: url("../fonts/Roboto-Bold.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: 700; 
+	} 	
+	
+@import 'blocks/buttons';
+@import 'blocks/main';
+@import 'blocks/benefits';
+@import 'blocks/more';
+@import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/consultation';
+@import 'blocks/managers';

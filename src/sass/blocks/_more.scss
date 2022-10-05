@@ -1,0 +1,49 @@
+.more {
+	min-height: 620px;
+	&__title {
+		margin-top: 50px;
+	}
+	&__divider {
+		margin-top: 20px;
+		width: 148px;
+		height: 1px;
+		color: $main-color;
+	}
+	&__subtitle {
+		margin-top: 18px;
+		font-size: 21px;
+		line-height: 24px;
+		font-weight: 300;
+		color: #2e2e2e;
+		text-align: center;
+	}
+	&__wrapper {
+		margin-top: 37px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__card {
+		width: 360px;
+		min-height: 420px;
+		display: flex;
+		flex-direction: column;
+	}
+	&__descr {
+		text-align: justify;
+	}
+	&__cardtitle {
+		margin-top: 27px;
+		text-align: center;
+		font-family: "Roboto-Bold"; 
+		font-size: 18px;
+		line-height: 22px;
+		color: #ec644b;
+	}
+	&__carddescr {
+		margin-top: 10px;
+		font-size: 14px;
+		font-weight: 300;
+		color: #3a3a3a;
+	}
+}

@@ -1,0 +1,21 @@
+.managers {
+	min-height: 340px;
+	background: url('../img/backgrounds/background_manager.png') center center / cover no-repeat;
+	text-align: center;
+	padding-top: 58px;
+	&__title {
+		margin-top: 20px;
+		font-size: 26px;
+		line-height: 23px;
+		font-weight: 700;
+		color: #ffffff;
+	}
+	&__text {
+		margin-top: 20px;
+		font-size: 19px;
+		line-height: 27px;
+		font-weight: 300;
+		color: #ffffff;
+	}
+	
+}
