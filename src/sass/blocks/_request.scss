@@ -15,5 +15,56 @@
 		color: #2e2e2e;
 		text-align: center;
 		margin-top: 20px;
+	}
+	&__carousel {
+		margin-top: 30px;
+		position: relative;
+		.slick-prev {
+			position: absolute;
+			left: 450px;
+			top:30px;
+			border: none;
+			background-color: #2e2e2e;
+			width: 14px;
+			height: 46px;
+			cursor: pointer;
+			z-index: 1;
+		}
+		.slick-next {
+			position: absolute;
+			left: 675px;
+			top: 30px;
+			border: none;
+			background-color: #2e2e2e;
+			width: 14px;
+			height: 46px;
+			cursor: pointer;
+		}
 	}	
+	&__slide {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 610px;
+		text-align: center;
+		margin: 0 auto;
+		&-title {
+			margin-top: 15px;
+			font-size: 18px;
+			line-height: 22px;
+			font-weight: 700;
+			color: #3a3a3a;
+		}
+		&-text {
+			margin-top: 5px;
+			font-size: 14px;
+			font-weight: 300;
+			text-align: justify;
+			span {
+				margin-left: 223px;
+			}
+		}
+	}
 }
+
