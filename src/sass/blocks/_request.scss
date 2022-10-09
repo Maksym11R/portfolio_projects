@@ -20,24 +20,24 @@
 		margin-top: 30px;
 		position: relative;
 		.slick-prev {
-			position: absolute;
-			left: 450px;
-			top:30px;
-			border: none;
-			background-color: #2e2e2e;
-			width: 14px;
-			height: 46px;
-			cursor: pointer;
-			z-index: 1;
+			
+			img {
+				background-color: #fff;
+				border-style: none;
+				position: absolute;
+				left: 450px;
+				top:40px;
+				cursor: pointer;
+				z-index: 1;
+			}
+
 		}
 		.slick-next {
+			background-color: #fff;
+			border-style: none;
 			position: absolute;
-			left: 675px;
-			top: 30px;
-			border: none;
-			background-color: #2e2e2e;
-			width: 14px;
-			height: 46px;
+			left: 650px;
+			top: 40px;
 			cursor: pointer;
 		}
 	}	
