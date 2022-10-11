@@ -445,7 +445,6 @@
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
-  padding-top: 12px;
 }
 .consultation__underbutton {
   position: absolute;
@@ -538,8 +537,8 @@
   margin-top: 30px;
   position: relative;
 }
-.request__carousel .slick-prev img {
-  background-color: #fff;
+.request__carousel .slick-prev {
+  background-color: rgba(255, 255, 255, 0);
   border-style: none;
   position: absolute;
   left: 450px;
@@ -548,7 +547,7 @@
   z-index: 1;
 }
 .request__carousel .slick-next {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0);
   border-style: none;
   position: absolute;
   left: 650px;
@@ -556,6 +555,7 @@
   cursor: pointer;
 }
 .request__slide {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -579,4 +579,84 @@
 }
 .request__slide-text span {
   margin-left: 223px;
+}
+.request__slide-img {
+  width: 114px;
+  height: 114px;
+}
+
+.questions {
+  background: url("../img/backgrounds/background_questions.png") center center/cover no-repeat;
+  height: 440px;
+  padding-top: 60px;
+}
+.questions__wrapper {
+  text-align: center;
+}
+.questions__header {
+  width: 896px;
+  height: 68px;
+  background-color: #25333c;
+  margin: 0 auto;
+}
+.questions__header-title {
+  padding-top: 20px;
+  font-size: 19px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.questions__header-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.questions__form {
+  width: 896px;
+  height: 240px;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.questions__form textarea {
+  margin-top: 6px;
+  width: 815px;
+  height: 73px;
+  padding: 18px 28px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  resize: none;
+}
+.questions__form textarea:focus {
+  outline: 0;
+}
+.questions__inputs {
+  display: inline;
+}
+.questions__inputs input {
+  width: 270px;
+  height: 47px;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 18px 28px;
+}
+.questions__inputs input:focus {
+  outline: 0;
+}
+.questions_button {
+  margin-top: 16px;
+  width: 180px;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
 }

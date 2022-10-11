@@ -257,19 +257,19 @@
 	<section class="consultation">
 		<div class="container">
 			<div class="consultation__title titleX">замовити безкоштовну консультацію</div>
-			<div class="consultation__form">
+			<form class="consultation__form">
 				<div class="consultation__logo">
 					<img src="img/total/counsultation_logo.png" alt="consult">
 				</div>
 				<div class="consultation__wrapper">
-					<input placeholder="Ваше ім'я...">
-					<input placeholder="Ваш телефон..." type="tel">
-					<input placeholder="Ваш e-mail..." type="email">
+					<input name="name" required placeholder="Ваше ім'я...">
+					<input name="phone" required placeholder="Ваш телефон..." type="tel">
+					<input name="email" required placeholder="Ваш e-mail..." type="email">
 				</div>
 				<div class="consultation__underbutton">
-					<div class="consultation__button button">відправити заявку</div>
+					<button class="consultation__button button">відправити заявку</button>
 				</div>
-			</div>
+			</form>
 		</div>
 	</section>
 
@@ -400,6 +400,27 @@
 				</div>
 			</div>
 
+		</div>
+	</section>
+
+	<section class="questions">
+		<div class="container">
+			<div class="questions__wrapper">
+				<div class="questions__header">
+					<h2 class="questions__header-title">Залишились питання?</h2>
+					<h3 class="questions__header-subtitle">Напишіть нам!</h3>
+				</div>
+				<form class="questions__form">
+					<div class="questions__inputs">
+						<input name="name" required placeholder="Ваше ім'я" type="text">
+						<input name="phone" required placeholder="Ваш номер" type="tel">
+						<input name="email" required placeholder="Ваш e-mail" type="email">
+					</div>
+					<textarea name="message" placeholder="Повідомлення..." cols="30" rows="4"></textarea>
+					<button class="button questions_button">Відправити заявку</button>
+
+				</form>
+			</div>
 		</div>
 	</section>
 

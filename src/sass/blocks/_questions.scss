@@ -1,0 +1,78 @@
+.questions {
+	background: url('../img/backgrounds/background_questions.png') center center / cover no-repeat;
+	height: 440px;
+	padding-top: 60px;
+	&__wrapper {
+		text-align: center;
+		
+	}
+	&__header {
+		width: 896px;
+		height: 68px;
+		background-color: #25333c;
+		margin: 0 auto;
+		&-title {
+			padding-top: 20px;
+			font-size: 19px;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #ffffff;
+		}
+		&-subtitle {
+			font-size: 14px;
+			font-weight: 400;
+			text-transform: uppercase;
+			color: #ffffff;
+		}
+	}
+	&__form {
+		width: 896px;
+		height: 240px;
+		background-color: rgba($color: #ffffff, $alpha: 0.7);
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		textarea {
+			margin-top: 6px;
+			width: 815px;
+			height: 73px;
+			padding: 18px 28px;
+			background-color: #ffffff;
+			border: 1px solid;
+			border-color: rgba(0,0,0,0.2);
+			border-radius: 8px;
+			resize: none;
+			&:focus {
+				outline: 0;
+			}
+		}
+		}
+	&__inputs {
+		display: inline;
+		input {
+			width: 270px;
+			height: 47px;
+			background-color: #ffffff;
+			border: 2px solid;
+			border-color: rgba(0,0,0,0.2);
+			border-radius: 25px;
+			padding: 18px 28px;
+			&:focus {
+				outline: 0;
+			}
+		}
+		
+	}
+	&_button {
+		margin-top: 16px;
+		width: 180px;
+		font-size: 12px;
+		line-height: 22px;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: #ffffff;
+	}
+		
+}
