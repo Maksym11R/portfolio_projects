@@ -1,0 +1,77 @@
+.footer {
+	min-height: 200px;
+	background-color: #25333c;
+	padding-top: 24px;
+	padding-bottom: 40px;
+	&__top {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__callback {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		margin-right: 9px;
+		align-items: flex-end;
+		right: 550px;
+		
+		&-text {
+			font-size: 14px;
+			line-height: 24px;
+			font-weight: 300;
+			color: white;
+			
+		}
+		&-phone {
+			font-size: 19px;
+			line-height: 24px;
+			font-weight: 700;
+			color: #ffffff;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+	}
+	&__title {
+		font-size: 16px;
+		line-height: 20px;
+		font-weight: 700;
+		color: #ffffff;
+	}
+	&__divider {
+		width: 1200px;
+		height: 1px;
+		background-color: #fff;
+		margin-top: 24px;
+		margin-bottom: 30px;
+	}
+	
+	&__bot {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		justify-content: space-between;
+		
+	}
+	&__data {
+		font-size: 13px;
+		line-height: 17px;
+		font-weight: 300;
+		color: #ffffff;
+	}
+	&__politics {
+		font-size: 13px;
+		color: $main-color;
+	}
+	&__creator {
+		font-size: 13px;
+		color: #ffffff;
+		a {
+			color: $main-color;
+		}
+	}
+}
