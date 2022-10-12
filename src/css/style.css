@@ -1,8 +1,31 @@
+@-webkit-keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 * {
   font-family: "Roboto-Light";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -17,6 +40,22 @@
   text-transform: uppercase;
   color: #2e2e2e;
   text-align: center;
+}
+
+.upchevrone {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  transition: 0.3s;
+}
+.upchevrone:hover {
+  transform: scale(1.2);
+}
+.upchevrone img {
+  width: 100%;
 }
 
 @font-face {
@@ -69,6 +108,10 @@
 }
 .main__menu-item {
   list-style-type: none;
+  transition: 0.5s;
+}
+.main__menu-item:hover {
+  transform: scale(1.2);
 }
 .main__menu-item a {
   font-size: 15px;
@@ -297,6 +340,16 @@
   display: flex;
   justify-content: center;
 }
+.agent__logo img {
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
 .agent__title {
   font-family: "Roboto-Bold";
   font-size: 26px;
@@ -463,6 +516,16 @@
   background: url("../img/backgrounds/background_manager.png") center center/cover no-repeat;
   text-align: center;
   padding-top: 58px;
+}
+.managers__logo img {
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 .managers__title {
   margin-top: 20px;

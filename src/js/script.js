@@ -8,3 +8,11 @@ $(document).ready(function () {
 			nextArrow: '<button type="button" class="slick-next"><img src="icons/icons_slider/rights.svg"></button>'
 		});
 });
+
+$(window).scroll(function () {
+	if ($(this).scrollTop() > 700) {
+		$('.upchevrone').fadeIn();
+	} else {
+		$('.upchevrone').fadeOut();
+	}
+});

@@ -5,6 +5,13 @@
 	&__logo {
 		display: flex;
 		justify-content: center;
+		img {
+			animation-name: pulse;
+			animation-duration: 3s;
+			animation-timing-function: ease;
+			animation-iteration-count: infinite;
+
+		}
 
 	}
 	&__title {

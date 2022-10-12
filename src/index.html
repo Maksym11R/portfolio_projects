@@ -6,22 +6,23 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Global Opt</title>
+	<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<section class="main">
+	<section id="up" class="main">
 		<div class="container">
 			<div class="nav__wrapper">
-				<img src="img/total/main_logo.png" alt="logo_lion" class="main__logo">
+				<a href="#" class="main__logo"><img src="img/total/main_logo.png" alt="logo_lion"></a>
 				<nav>
 					<ul class="main__menu">
-						<li class="main__menu-item"><a href="#">Переваги</a></li>
-						<li class="main__menu-item"><a href="#">Наша робота</a></li>
-						<li class="main__menu-item"><a href="#">Ціни</a></li>
-						<li class="main__menu-item"><a href="#">Схема роботи</a></li>
-						<li class="main__menu-item"><a href="#">Відгуки</a></li>
+						<li class="main__menu-item"><a href="#benefits">Переваги</a></li>
+						<li class="main__menu-item"><a href="#work">Наша робота</a></li>
+						<li class="main__menu-item"><a href="#price">Ціни</a></li>
+						<li class="main__menu-item"><a href="#scheme">Схема роботи</a></li>
+						<li class="main__menu-item"><a href="#request">Відгуки</a></li>
 						<li class="main__menu-item"><a href="#">Контакти</a></li>
 					</ul>
 				</nav>
@@ -71,7 +72,7 @@
 		</div>
 	</section>
 
-	<section class="benefits">
+	<section class="benefits" id="benefits">
 		<div class="container">
 			<h2 class="benefits__title titleX">Переваги роботи з Globalopt</h2>
 			<div class="benefits__wrapper">
@@ -133,7 +134,8 @@
 					</div>
 				</div>
 				<div class="benefits__item">
-					<img src="icons/icons_benefits/benefits_airplane.png" alt="office" class="benefits__item-img">
+					<img src="icons/icons_benefits/benefits_airplane.png" alt="airplane" class="benefits__item-img"
+						id="work">
 					<div class="benefits__item-descr">
 						<h3 class="benefits__item-title">Поїздка на виробництво Китай</h3>
 						<div class="benefits__item-text">
@@ -197,7 +199,7 @@
 		</div>
 	</section>
 
-	<section class="price">
+	<section class="price" id="price">
 		<div class="container">
 			<div class="price__title titleX">Ціни на будь-який варіант доставки</div>
 			<div class="price__divider"></div>
@@ -275,7 +277,7 @@
 
 	<section class="managers">
 		<div class="container">
-			<div class="managers__logo">
+			<div class="managers__logo" id="scheme">
 				<img src="img/total/manager_logo.png" alt="manager">
 			</div>
 			<h2 class="managers__title">Менеджери компанії</h2>
@@ -321,7 +323,7 @@
 						<img src="icons/icons_scheme/scheme_delivery.png" alt="delivery1">
 					</div>
 					<div class="scheme__card-title">Доставка на наш склад</div>
-					<div class="scheme__card-text">
+					<div class="scheme__card-text" id="request">
 						Зв'язуємося з Вашим постачальником у Китаї та домовляємося про доставку вантажу на наш склад
 					</div>
 				</div>
@@ -453,6 +455,10 @@
 			</div>
 		</div>
 	</footer>
+
+	<a href="#up" class="upchevrone">
+		<img src="img/total/upchevron.svg" alt="arrowup">
+	</a>
 
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
