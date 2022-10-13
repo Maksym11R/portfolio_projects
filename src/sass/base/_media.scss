@@ -1,0 +1,71 @@
+@media (max-width: 1200px) {
+	.container {
+		width: 960px;
+		margin: 0 auto;
+	}
+	.main{
+		min-height: 700px;
+		&__menu {
+			width: 480px;
+			margin: 60px 35px 0 35px;
+		}
+		&__button {
+			width: 145px;
+		}
+		&__callback-phone {
+			font-size: 15px;
+		}
+		&__title {
+			font-size: 62px;
+		}
+	}
+	.benefits {
+		min-height: 570px;
+			padding-top: 37px;
+	}
+	.more {
+		min-height: 585px;
+		padding-top: 30px;
+		&__card {
+			width: 300px;
+			min-height: 340px;
+		}
+	}
+	.agent {
+		min-height: 320px;
+		padding-top: 40px;
+	}
+	.price {
+		min-height: 590px;
+		padding-top: 30px;
+		&__divider {
+			margin: 20px auto 0;
+		}
+		&__item {
+			width: 225px;
+		}
+	}
+	.managers {
+		min-height: 320px;
+		padding-top: 38px;
+	}
+	.request {
+		min-height: 450px;
+		padding-top: 30px;
+		&__carousel {
+			.slick-prev {
+				left: 360px;
+				 top: 24px;
+			} 
+			.slick-next {
+				left: 560px;
+				top: 23px;
+			}
+		}
+		
+	}
+	.questions {
+		min-height: 400px;
+		padding-top: 40px;
+	}
+}

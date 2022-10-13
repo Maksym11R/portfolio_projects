@@ -1,6 +1,6 @@
 .questions {
 	background: url('../img/backgrounds/background_questions.png') center center / cover no-repeat;
-	height: 440px;
+	min-height: 440px;
 	padding-top: 60px;
 	&__wrapper {
 		text-align: center;
