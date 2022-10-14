@@ -118,6 +118,7 @@
 	&__functions {
 		margin-top: 45px;
 		display: flex;
+		justify-content: center;
 		&-item {
 			// display: inline-block;
 			// vertical-align: top;
@@ -159,4 +160,8 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+}
+
+.burger {
+	display: none;
 }
