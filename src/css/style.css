@@ -1041,6 +1041,7 @@
     height: 100vh;
     background-color: rgba(236, 100, 75, 0.9);
     transition: 0.7s all;
+    z-index: 10;
   }
   .main__menu_active {
     left: 0;
@@ -1082,7 +1083,7 @@
     display: block;
     height: 2px;
     width: 100%;
-    background-color: white;
+    background-color: #ec644b;
     margin-bottom: 6px;
     transition: 0.7s all;
   }
@@ -1228,6 +1229,9 @@
   .main {
     min-height: 1170px;
   }
+  .main__menu {
+    width: 75%;
+  }
   .main__button {
     display: none;
   }
@@ -1270,8 +1274,15 @@
   .benefits {
     padding: 15px 10px;
   }
+  .benefits__title {
+    width: 290px;
+    font-size: 22px;
+  }
   .benefits__wrapper {
     margin: 0 auto;
+  }
+  .benefits__item {
+    width: 280px;
   }
   .more__card {
     width: 280px;
@@ -1289,5 +1300,43 @@
   }
   .agent__descr {
     font-size: 15px;
+  }
+  .consultation {
+    min-height: 500px;
+  }
+  .managers {
+    min-height: 340px;
+  }
+  .managers__text {
+    line-height: 22px;
+  }
+  .request {
+    min-height: 540px;
+  }
+  .request__slide {
+    padding: 5px 3px;
+    margin: 0 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(236, 100, 75, 0.7);
+  }
+  .footer__title {
+    display: none;
+  }
+  .footer__politics {
+    font-size: 10px;
+    margin-right: 39px;
+    text-align: center;
+  }
+  .footer__creator {
+    font-size: 10px;
+  }
+  .footer__data {
+    margin-right: 30px;
+  }
+  .upchevrone {
+    width: 30px;
+    height: 30px;
+    right: 20px;
   }
 }
